@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio Website 1</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+  <script src="https://kit.fontawesome.com/8c3d1ec2cc.js" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/timeline.css">
+</head>
+<body>
+
+  <header>
+    <div class="logo">
+      <img src="images/logo-no-background.png" alt="">
+    </div>
+    <div id="themeToggle" class="themeToggle"><img src="images/theme-light-dark.svg" alt="Dark Mode Toggle"></div>
+    <button class="nav-toggle" aria-label="toggle navigation">
+      <span class="hamburger"></span>
+    </button>
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+        <li class="nav__item"><a href="index.html#services" class="nav__link">My Services</a></li>
+        <li class="nav__item"><a href="index.html#about" class="nav__link">About Me</a></li>
+        <li class="nav__item"><a href="index.html#work" class="nav__link">My Work</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="timeline">
+    <div class="container left-container">
+      <img src="images/odin.svg" alt="The Odin Project logo">
+      <div class="text-box">
+        <h2>The Odin Project</h2>
+        <small>January 2024 - Present</small>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus obcaecati laborum ea velit enim reiciendis dolor fugit, soluta quo suscipit perspiciatis aspernatur accusantium commodi asperiores rem dicta unde vel dolores!</p>
+        <span class="left-container-arrow"></span>
+      </div>
+    </div>
+
+    <div class="container right-container">
+      <img src="images/bristol.png" alt="University of Bristol logo">
+      <div class="text-box">
+        <h2>Mechanical Engineering Integrated Masters Degree</h2>
+        <h3>University of Bristol</h3>
+        <small>September 2022 - July 2023</small>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus obcaecati laborum ea velit enim reiciendis dolor fugit, soluta quo suscipit perspiciatis aspernatur accusantium commodi asperiores rem dicta unde vel dolores!</p>
+        <span class="right-container-arrow"></span>
+      </div>
+    </div>
+
+    <div class="container left-container">
+      <img src="images/bristol.png" alt="University of Bristol logo">
+      <div class="text-box">
+        <h2>Mechanical Engineering Bachelors Degree</h2>
+        <h3>University of Bristol</h3>
+        <small>September 2019 - July 2022</small>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus obcaecati laborum ea velit enim reiciendis dolor fugit, soluta quo suscipit perspiciatis aspernatur accusantium commodi asperiores rem dicta unde vel dolores!</p>
+        <span class="left-container-arrow"></span>
+      </div>
+    </div>
+
+    <div class="container right-container">
+      <img src="images/tapton.jpeg" alt="Tapton School logo">
+      <div class="text-box">
+        <h2>Tapton School</h2>
+        <small>September 2012 - July 2019</small>
+        <p>A-Level Grades: Mathematics A*, Further Mathematics A, Physics A</p>
+        <p>A-Level Grades: Mathematics A, Further Mathematics A, Physics A, Economics B</p>
+        <p>GCSE Grades: 9 A*s and 2 As</p>
+        <span class="right-container-arrow"></span>
+      </div>
+    </div>
+
+    <div class="container left-container">
+      <img src="" alt="">
+      <div class="text-box">
+        <h2>Company Name</h2>
+        <small>2018 - 2019</small>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus obcaecati laborum ea velit enim reiciendis dolor fugit, soluta quo suscipit perspiciatis aspernatur accusantium commodi asperiores rem dicta unde vel dolores!</p>
+        <span class="left-container-arrow"></span>
+      </div>
+    </div>
+
+    <div class="container right-container">
+      <img src="" alt="">
+      <div class="text-box">
+        <h2>Company Name</h2>
+        <small>2018 - 2019</small>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus obcaecati laborum ea velit enim reiciendis dolor fugit, soluta quo suscipit perspiciatis aspernatur accusantium commodi asperiores rem dicta unde vel dolores!</p>
+        <span class="right-container-arrow"></span>
+      </div>
+    </div>
+  </div>
+
+
+  <canvas id="canvas1"></canvas>
+  <script src="js/timeline.js"></script>
+</body>
+</html>
